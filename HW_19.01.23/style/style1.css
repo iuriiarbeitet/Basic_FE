@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*border: 2px solid black; */
+    }
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    width: 60%;
+    margin: auto;
+}
+
+/* мои навыки */
+.skills {
+    padding: 100px;
+    
+}
+.skills-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skills-info {
+    width: 40%;
+}
+.skills-title {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.skills-scale:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.skills-name {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 20px;
+}
+.skill-skale-outer {
+    height: 4px;
+    background-color: #C4C4C4;
+}
+.skill-skale-inner {
+    width: 70%;
+    height: 100%;
+    background-color: #34547A;
+} 
+.skills-img {
+    display: block;
+    width: 50%;
+}
+/*Как я работаю */
+.process {
+    padding: 100px;
+    background-color: #EEEFF1;
+}
+.process-title {
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+}
+.process-descr {
+    width: 50%;
+   margin: 50px auto 60px;
+   color: #727272;
+   text-align: center;
+   font-weight: 400;
+    font-size: 16px;  
+}
+.process-video {
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+/* Проекты */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+.projects-item {
+    width: 25%;
+    aspect-ratio: 1/1;
+   
+    background-size: cover;
+}
+.sticker {
+     background-image: url(../image/Rectangle\ 7sticker.png);
+}
+.laptop {
+    background-image: url(../image/Rectangle\ 7.7laptop.png);
+}
+.projects-item-inner {
+    height: 100%;
+    background: linear-gradient(0deg, rgba(52, 84, 122, 0.8), 
+     rgba(52, 84, 122, 0.8)); 
+     opacity: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.projects-item-inner:hover {
+    opacity: 0.5;
+}
+.form {
+    background: #EEEFF1;
+    padding: 100px 0;
+    
+}
+.form-wrapper {
+    width: 30%;
+    margin: auto;
+}
+.form-title {
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+}
+.form-descr {
+    color: #727272;
+    margin: 50px 0 65px;
+}
+.form-control {
+    display: flex;
+    justify-content: space-between;
+}
+input[name="name"], input[name="email"] {
+    width: 45%;
+    padding: 20px;
+    border: none;
+    outline: none;
+}
+textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    margin: 20px 0 50px;
+}
+input[type="submit"] {
+    display: block;
+    margin: auto;
+    padding: 20px 45px;
+    background-color: #34547A;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+}
+
+
+/*
+.skill-skale-outer {
+    width: 100%;
+    height: 4px;
+    background-color: #C4C4C4; ;
+    margin-bottom: 20px;
+}
+.skill-skale-inner {
+    width: 70%;
+    height: 100%;
+    background-color: #34547A;;
+} 
