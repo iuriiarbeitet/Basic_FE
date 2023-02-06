@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.section {
+    background-color: #34495E;
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+div {
+    margin-bottom: 108px;
+}
+input[name="name"], input[name="price"] {
+    width: 85%;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+
+}
+input[type="submit"] {
+    display: block;
+    margin: auto;
+    width: 85%;
+    padding: 10px;
+    background-color: #347a4a;
+    border: none;
+    outline: none;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+      
+}
+
+input[name="name1"]{
+    width: 95%;
+    padding: 5px;
+    border: none;
+    outline: none;
+
+}
+.search-sorting {
+    width: 95%;
+    color: white;
+    display: block;
+    display: flex ;
+    justify-content: flex-start;
+    margin: auto;
+    margin-top: 20px;
+}
+p{
+   margin-right: 20px;
+}
+
+article {
+    background-color: #34495E;
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border-radius: 10px;
+}
